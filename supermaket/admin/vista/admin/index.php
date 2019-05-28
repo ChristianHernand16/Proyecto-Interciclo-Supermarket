@@ -1,3 +1,7 @@
+<?php 
+session_start(); 
+?>
+
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -15,25 +19,25 @@ SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Custom Theme files -->
-<link href="../../css/estilos.css" rel="stylesheet" type="text/css" media="all">
-<link href="../../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="../../css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
-<link href="../../css/ken-burns.css" rel="stylesheet" type="text/css" media="all" /> <!-- banner slider --> 
-<link href="../../css/animate.min.css" rel="stylesheet" type="text/css" media="all" /> 
-<link href="../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"> <!-- carousel slider -->  
+<link href="../../../css/estilos.css" rel="stylesheet" type="text/css" media="all">
+<link href="../../../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../../../css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="../../../css/menu.css" rel="stylesheet" type="text/css" media="all" /> <!-- menu style --> 
+<link href="../../../css/ken-burns.css" rel="stylesheet" type="text/css" media="all" /> <!-- banner slider --> 
+<link href="../../../css/animate.min.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="../../../css/owl.carousel.css" rel="stylesheet" type="text/css" media="all"> <!-- carousel slider -->  
 <!-- //Custom Theme files -->
 <!-- font-awesome icons -->
-<link href="../../css/font-awesome.css" rel="stylesheet"> 
+<link href="../../../css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome icons -->
 <!-- js -->
-<script src="../../js/jquery-2.2.3.min.js"></script> 
+<script src="../../../js/jquery-2.2.3.min.js"></script> 
 <!-- //js --> 
 <!-- web-fonts -->
-<link href='../..///fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='../..///fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
-<link href='../..///fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
-<link href='../..///fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+<link href='../../..///fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='../../..///fonts.googleapis.com/css?family=Lovers+Quarrel' rel='stylesheet' type='text/css'>
+<link href='../../..///fonts.googleapis.com/css?family=Offside' rel='stylesheet' type='text/css'>
+<link href='../../..///fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
 <!-- web-fonts --> 
 <script src="../../js/owl.carousel.js"></script>  
 <script>
@@ -48,7 +52,7 @@ $(document).ready(function() {
 	}); 
 }); 
 </script>
-<script src="../../js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
+<script src="../../../js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
 <script>
     $(document).ready(function() {
 
@@ -70,8 +74,8 @@ $(document).ready(function() {
     });
 </script>
 <!-- start-smooth-scrolling -->
-<script type="text/javascript" src="../../js/move-top.js"></script>
-<script type="text/javascript" src="../../js/easing.js"></script>	
+<script type="text/javascript" src="../../../js/move-top.js"></script>
+<script type="text/javascript" src="../../../js/easing.js"></script>	
 <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -97,30 +101,9 @@ $(document).ready(function() {
 		});
 	</script>
 	<!-- //smooth-scrolling-of-move-up -->
-<script src="../../js/bootstrap.js"></script>	
+<script src="../../../js/bootstrap.js"></script>	
 </head>
 <body>
-	<!--<div class="agileits-modal modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88"
-		aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel"><i class="fa fa-map-marker" aria-hidden="true"></i> Ubicación</h4>
-				</div>
-				<div class="modal-body modal-body-sub"> 
-					<h5>Seleccione su lugar de entrega </h5>  
-					<select class="form-control bfh-states" data-country="US" data-state="CA">
-						<option value="">Selecciona tu ubicación</option>
-						<option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AS">American Samoa</option><option value="AZ">Arizona</option><option value="AR">Arkansas<option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District of Columbia</option><option value="FM">Federated States Of Micronesia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="GU">Guam</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MH">Marshall Islands</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option>
-						<option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="MP">Northern Mariana Islands</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PW">Palau</option><option value="PA">Pennsylvania</option><option value="PR">Puerto Rico</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VI">Virgin Islands</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option>
-					</select>
-					<input type="text" name="Name" placeholder="Enter your area / Landmark / Pincode" required="">
-					<button type="button" class="close2" data-dismiss="modal" aria-hidden="true">Skip & Explore</button>
-				</div>
-			</div>
-		</div>
-	</div>-->
 	<script>
 		$('#myModal88').modal('show');
 	</script> 
@@ -133,23 +116,27 @@ $(document).ready(function() {
 			<div class="w3ls-header-right">
 				<ul>
 					<li class="dropdown head-dpdn">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> Iniciar Sesión<span class="caret"></span></a>
+                        <?php
+                        include '../../../config/conexionBD.php';
+
+                        $codigo = $_SESSION['codigo'];
+
+                        $sql= "SELECT * FROM usuario WHERE usu_codigo = '$codigo'";
+                            $result= $conn->query($sql);
+                            if($result->num_rows> 0) {
+                                while($row= $result->fetch_assoc()) {
+                        ?>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> 
+                        <?php echo $row['usu_nombres'] ?>&nbsp<?php echo $row['usu_apellidos'] ?><span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="login.html">Login </a></li> 
-							<li><a href="signup.html">Regístrate</a></li> 
-							<li><a href="login.html">Mis Ordenes</a></li>  
-							<li><a href="login.html">Billetera</a></li> 
-						</ul> 
+							<li><a href="administracion.php">Administración del Sitio</a></li> 
+							<li><a href="../../../public/vista/index.html">Cerrar Sesión</a></li> 							
+                        </ul> 
+                        <?php
+                                    }
+                                }
+                        ?>
 					</li> 
-					<li class="dropdown head-dpdn">
-						<a href="contact.html" class="dropdown-toggle"><i class="fa fa-map-marker" aria-hidden="true"></i> Buscador de Sucursales</a>
-					</li> 
-					<li class="dropdown head-dpdn">
-						<a href="card.html" class="dropdown-toggle"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Tarjeta de Crédito</a>
-					</li> 
-					<li class="dropdown head-dpdn">
-						<a href="help.html" class="dropdown-toggle"><i class="fa fa-question-circle" aria-hidden="true"></i> Ayuda</a>
-					</li>
 				</ul>
 			</div>
 			<div class="clearfix"> </div> 
@@ -981,21 +968,21 @@ $(document).ready(function() {
 			<!-- Wrapper-for-Slides -->
             <div class="carousel-inner" role="listbox">  
                 <div class="item active"><!-- First-Slide -->
-                    <img src="../../images/5.jpg" alt="" class="img-responsive" />
+                    <img src="../../../images/5.jpg" alt="" class="img-responsive" />
                     <div class="carousel-caption kb_caption kb_caption_right">
                         <h3 data-animation="animated flipInX">Flat <span>50%</span> Discount</h3>
                         <h4 data-animation="animated flipInX">Hot Offer Today Only</h4>
                     </div>
                 </div>  
                 <div class="item"> <!-- Second-Slide -->
-                    <img src="../../images/8.jpg" alt="" class="img-responsive" />
+                    <img src="../../../images/8.jpg" alt="" class="img-responsive" />
                     <div class="carousel-caption kb_caption kb_caption_right">
                         <h3 data-animation="animated fadeInDown">Our Latest Fashion Editorials</h3>
                         <h4 data-animation="animated fadeInUp">cupidatat non proident</h4>
                     </div>
                 </div> 
                 <div class="item"><!-- Third-Slide -->
-                    <img src="../../images/3.jpg" alt="" class="img-responsive"/>
+                    <img src="../../../images/3.jpg" alt="" class="img-responsive"/>
                     <div class="carousel-caption kb_caption kb_caption_center">
                         <h3 data-animation="animated fadeInLeft">End Of Season Sale</h3>
                         <h4 data-animation="animated flipInX">cupidatat non proident</h4>
@@ -1013,7 +1000,7 @@ $(document).ready(function() {
                 <span class="sr-only">Next</span>
             </a> 
         </div>
-		<script src="../../js/custom.js"></script>
+		<script src="../../../js/custom.js"></script>
 	</div>
 	<!-- //banner -->  
 	<!-- welcome -->
@@ -1073,7 +1060,7 @@ $(document).ready(function() {
 								<div id="owl-demo" class="owl-carousel"> 
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products.html"><img src="../../images/e1.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Altavoz de audio</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1091,7 +1078,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits">
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products.html"><img src="../../images/e2.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Refrigerator</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p> 
@@ -1109,7 +1096,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products.html"><img src="../../images/e3.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Smart Phone</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1126,7 +1113,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products.html"><img src="../../images/e4.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Digital Camera</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1143,7 +1130,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products.html"><img src="../../images/e1.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Audio speaker</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1161,7 +1148,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits">
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products.html"><img src="../../images/e2.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Refrigerator</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p> 
@@ -1179,7 +1166,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products.html"><img src="../../images/e3.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Smart Phone</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1196,7 +1183,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products.html"><img src="../../images/e4.png" alt="img"></a>
+											<a href="products.html"><img src="../../../images/e4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products.html">Digital Camera</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1234,7 +1221,7 @@ $(document).ready(function() {
 								<div id="owl-demo1" class="owl-carousel"> 
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products1.html"><img src="../../images/f1.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">T Shirt</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1252,7 +1239,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits">
 											<div class="new-tag"><h6>20% <br> Off</h6></div>
-											<a href="products1.html"><img src="../../images/f2.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Women Sandal</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1269,7 +1256,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products1.html"><img src="../../images/f3.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Jewellery</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1287,7 +1274,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products1.html"><img src="../../images/f4.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Party dress</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1304,7 +1291,7 @@ $(document).ready(function() {
 									</div> 
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products1.html"><img src="../../images/f1.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">T Shirt</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1322,7 +1309,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits">
 											<div class="new-tag"><h6>20% <br> Off</h6></div>
-											<a href="products1.html"><img src="../../images/f2.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Women Sandal</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1339,7 +1326,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products1.html"><img src="../../images/f3.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Jewellery</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1357,7 +1344,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products1.html"><img src="../../images/f4.png" alt="img"></a>
+											<a href="products1.html"><img src="../../../images/f4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products1.html">Party dress</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1396,7 +1383,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products6.html"><img src="../../images/p1.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Coffee Mug</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1414,7 +1401,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>20% <br> Off</h6></div>
-											<a href="products6.html"><img src="../../images/p2.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Teddy bear</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1432,7 +1419,7 @@ $(document).ready(function() {
 									<div class="item"> 
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products6.html"><img src="../../images/p3.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Chocolates</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1449,7 +1436,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products6.html"><img src="../../images/p4.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Gift Card</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1467,7 +1454,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products6.html"><img src="../../images/p1.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Coffee Mug</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1485,7 +1472,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>20% <br> Off</h6></div>
-											<a href="products6.html"><img src="../../images/p2.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Teddy bear</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1503,7 +1490,7 @@ $(document).ready(function() {
 									<div class="item"> 
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products6.html"><img src="../../images/p3.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Chocolates</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1520,7 +1507,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products6.html"><img src="../../images/p4.png" alt="img"></a>
+											<a href="products6.html"><img src="../../../images/p4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products6.html">Gift Card</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1559,7 +1546,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products3.html"><img src="../../images/h1.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Wall Clock</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1577,7 +1564,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>10%<br>Off</h6></div>
-											<a href="products3.html"><img src="../../images/h2.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Plants & Vases</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1594,7 +1581,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products3.html"><img src="../../images/h3.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Queen Size Bed</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1611,7 +1598,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products3.html"><img src="../../images/h4.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">flower pot</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1629,7 +1616,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>Sale</h6></div>
-											<a href="products3.html"><img src="../../images/h1.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Wall Clock</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1647,7 +1634,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>10%<br>Off</h6></div>
-											<a href="products3.html"><img src="../../images/h2.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Plants & Vases</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1664,7 +1651,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products3.html"><img src="../../images/h3.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">Queen Size Bed</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1681,7 +1668,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products3.html"><img src="../../images/h4.png" alt="img"></a>
+											<a href="products3.html"><img src="../../../images/h4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products3.html">flower pot</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1719,7 +1706,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products4.html"><img src="../../images/s1.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Roller Skates</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1736,7 +1723,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products4.html"><img src="../../images/s2.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Football</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1754,7 +1741,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>20% <br>Off</h6></div>
-											<a href="products4.html"><img src="../../images/s3.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Nylon Shuttle</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1771,7 +1758,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products4.html"><img src="../../images/s4.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Cricket Kit</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1789,7 +1776,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>New</h6></div>
-											<a href="products4.html"><img src="../../images/s1.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s1.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Roller Skates</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1806,7 +1793,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products4.html"><img src="../../images/s2.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s2.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Football</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1824,7 +1811,7 @@ $(document).ready(function() {
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
 											<div class="new-tag"><h6>20% <br>Off</h6></div>
-											<a href="products4.html"><img src="../../images/s3.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s3.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Nylon Shuttle</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -1841,7 +1828,7 @@ $(document).ready(function() {
 									</div>
 									<div class="item">
 										<div class="glry-w3agile-grids agileits"> 
-											<a href="products4.html"><img src="../../images/s4.png" alt="img"></a>
+											<a href="products4.html"><img src="../../../images/s4.png" alt="img"></a>
 											<div class="view-caption agileits-w3layouts">           
 												<h4><a href="products4.html">Cricket Kit</a></h4>
 												<p>Lorem ipsum dolor sit amet consectetur</p>
@@ -2124,7 +2111,7 @@ $(document).ready(function() {
 		</div>
 	</div> 
 	<!-- cart-js -->
-	<script src="../../js/minicart.js"></script>
+	<script src="../../../js/minicart.js"></script>
 	<script>
         w3ls.render();
 
@@ -2143,9 +2130,9 @@ $(document).ready(function() {
     </script>  
 	<!-- //cart-js -->	
 	<!-- countdown.js -->	
-	<script src="../../js/jquery.knob.js"></script>
-	<script src="../../js/jquery.throttle.js"></script>
-	<script src="../../js/jquery.classycountdown.js"></script>
+	<script src="../../../js/jquery.knob.js"></script>
+	<script src="../../../js/jquery.throttle.js"></script>
+	<script src="../../../js/jquery.classycountdown.js"></script>
 		<script>
 			$(document).ready(function() {
 				$('#countdown1').ClassyCountdown({
@@ -2201,8 +2188,8 @@ $(document).ready(function() {
 		</script>
 	<!-- //countdown.js -->
 	<!-- menu js aim -->
-	<script src="../../js/jquery.menu-aim.js"> </script>
-	<script src="../../js/main.js"></script> <!-- Resource jQuery -->
+	<script src="../../../js/jquery.menu-aim.js"> </script>
+	<script src="../../../js/main.js"></script> <!-- Resource jQuery -->
 	<!-- //menu js aim --> 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
